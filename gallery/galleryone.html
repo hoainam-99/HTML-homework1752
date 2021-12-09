@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobile Gallery - Page 1</title>
+    <style>
+        .content-img{
+            width: 500px;
+        }
+
+        .header{
+            border-bottom: 1px #ccc solid;
+            border-top: 1px #ccc solid;
+        }
+
+        .header-select{
+            border-bottom: 1px #ccc solid;
+        }
+
+        #chevrolet{
+            border-bottom: 1px #ccc solid;
+        }
+
+        #ferrari, #ford{
+            margin-top: 16px;
+            border-bottom: 1px #ccc solid;
+            border-top: 1px #ccc solid;
+        }
+
+        .top-select{
+            margin-top: 8px;
+            font-size: large;
+        }
+
+        .mt-16{
+            margin-top: 16px;
+            font-size: large;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!--header-->
+    <div>
+        <div class="header">
+            <h2>Gallery Part I</h2>
+        </div>
+        <div class="header-select">
+            <a href="#chevrolet">
+                <h3>Chevrolet</h3>
+            </a>
+            <a href="#ferrari">
+                <h3>Ferrari</h3>
+            </a>
+            <a href="#ford">
+                <h3>Ford</h3>
+            </a>
+        </div>
+    </div>
+
+    <!--content-->
+    <div>
+        <!--Chevrolet-->
+        <div>
+            <div id="chevrolet">
+                <h3>Chevrolet</h3>
+            </div>
+            <div>
+                <div>
+                    <h4>Corvette Coupe</h4>
+                </div>
+                <div>
+                    <img src="../gallery/img/1985-chevrolet-corvette-coupe.jpg" alt="Corvette Coupe" class="content-img">
+                </div>
+
+                <div>
+                    <h4>Camro RS/SS</h4>
+                </div>
+                <div>
+                    <img class="content-img" src="../gallery/img/1969-chevrolet-camaro-rs-ss.jpg" alt="Camro RS/SS">
+                </div>
+            </div>
+            <div class="top-select">
+                <a href="#">Top</a>
+            </div>
+        </div>
+        
+        <!--Ferrari-->
+        <div>
+            <div id="ferrari">
+                <h3>Ferrari</h3>
+            </div>
+            <div>
+                <div>
+                    <h4>275 GTB</h4>
+                </div>
+                <div>
+                    <img src="../gallery/img/ferrari 275.jpeg" alt="275 GTB" class="content-img">
+                </div>
+
+                <div>
+                    <h4>Dino 246 GTS</h4>
+                </div>
+                <div>
+                    <img src="../gallery/img/ferraridino246.jpg" alt="Dino 246 GTS" class="content-img">
+                </div>
+            </div>
+            <div class="top-select">
+                <a href="#">Top</a>
+            </div>
+        </div>
+
+        <!--Ford-->
+        <div>
+            <div id="ford">
+                <h3>Ford</h3>
+            </div>
+            <div>
+                <div>
+                    <h4>Tudor Hot Rod</h4>
+                </div>
+                <div>
+                    <img src="../gallery/img/1928-29_Ford_Model_A_Tudor_Hot_Rod.jpg" alt="Tudor Hot Rod" class="content-img">
+                </div>
+
+                <div>
+                    <h4>Mustang Boss 302</h4>
+                </div>
+                <div>
+                    <img src="../gallery/img/ford-boss-302.jpg" alt="Mustang Boss 302" class="content-img">
+                </div>
+            </div>
+            <div class="top-select">
+                <a href="#">Top</a>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="mt-16">
+        <a href="./gallerytwo.html">Next page</a>
+    </div>
+    
+</body>
+</html>
